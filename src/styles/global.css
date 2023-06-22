@@ -3,3 +3,52 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+.gradient {
+  background: hsla(180, 67%, 96%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(180, 67%, 96%, 1) 0%,
+    hsla(180, 75%, 98%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(180, 67%, 96%, 1) 0%,
+    hsla(180, 75%, 98%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(180, 67%, 96%, 1) 0%,
+    hsla(180, 75%, 98%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f0fcfc", endColorstr="#f8fefe", GradientType=1 );
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.button {
+  background: hsla(263, 84%, 93%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(263, 84%, 93%, 1) 0%,
+    hsla(251, 80%, 96%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(263, 84%, 93%, 1) 0%,
+    hsla(251, 80%, 96%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(263, 84%, 93%, 1) 0%,
+    hsla(251, 80%, 96%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e8dcfc", endColorstr="#f0edfd", GradientType=1 );
+}
