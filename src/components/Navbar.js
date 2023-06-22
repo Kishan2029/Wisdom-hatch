@@ -8,14 +8,16 @@ import { StaticImage } from "gatsby-plugin-image"
 const Navbar = () => {
     return (
         <div className='flex justify-between items-center mt-5'>
-            <div><StaticImage
-                src="../images/logo.png"
-                alt="A dinosaur"
-                placeholder="blurred"
-                layout="fixed"
-                width={180}
-                height={70}
-            /></div>
+            <div>
+                <StaticImage
+                    src="../images/logo.png"
+                    alt="A dinosaur"
+                    placeholder="blurred"
+                    layout="fixed"
+                    width={180}
+                    height={70}
+                />
+            </div>
             <div className='flex space-x-10 text-lg font-extralight'>
                 <div >Home</div>
                 <div >Cources</div>

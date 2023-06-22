@@ -1,0 +1,20 @@
+{
+  "title": "Offer data",
+  "content": [
+    {
+      "img": "../images/stockMarket.png",
+      "title": "Stock Market",
+      "description": "Learn about the stock market, how to analyze stocks, and manage a great balanced portfolio."
+    },
+    {
+      "img": "../images/stockMarket.png",
+      "title": "Discussion",
+      "description": "Discuss about the stock markets, cryptocurrencies, queries, and doubts on a live Zoom call."
+    },
+    {
+      "img": "../images/stockMarket.png",
+      "title": "Management Consulting",
+      "description": "A complete mentorship program to help you build Management Consulting, Business Analysis and Structured thinking skills."
+    }
+  ]
+}
