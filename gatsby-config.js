@@ -12,6 +12,23 @@ module.exports = {
       "name": "images",
       "path": "./src/images/"
     },
-    __key: "images"
-  }]
+    __key: "images",
+  },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        // The unique name for each instance
+        name: `images`,
+        // Path to the directory
+        path: `${__dirname}/src/content/`,
+      },
+    }
+  ]
 };
