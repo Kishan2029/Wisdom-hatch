@@ -8,11 +8,6 @@ import Blog from '../components/Blog'
 import Footer from '../components/Footer'
 import "../styles/global.css"
 
-
-
-
-
-
 const index = () => {
   return (
     <div className='overflow-scroll'>

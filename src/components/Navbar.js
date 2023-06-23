@@ -1,5 +1,6 @@
 import React from 'react'
-import { BsFillBagFill } from 'react-icons/bs';
+import { BsFillBagFill, BsBagCheck } from 'react-icons/bs';
+
 import Button from './Button';
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -26,7 +27,7 @@ const Navbar = () => {
                 <div>Login</div>
             </div>
             <div className='flex space-x-4 items-center'>
-                <BsFillBagFill style={{ fontSize: 23 }} />
+                <BsBagCheck style={{ fontSize: 30 }} />
                 {/* <StaticImage src={BiShoppingBag} alt='Shopping Bag' /> */}
                 <Button value={'ENROLL NOW!'} />
             </div>
