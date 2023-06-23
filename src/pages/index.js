@@ -5,7 +5,9 @@ import OfferSection from '../components/OfferSection'
 import MidSection from '../components/MidSection'
 import TestimonialSection from '../components/TestimonialSection'
 import Blog from '../components/Blog'
+import Footer from '../components/Footer'
 import "../styles/global.css"
+
 
 
 
@@ -21,10 +23,8 @@ const index = () => {
         <MidSection />
         <TestimonialSection />
         <Blog />
-        <div className='mt-20'>
-          Footer
-        </div>
       </div>
+      <Footer />
     </div>
   )
 }
