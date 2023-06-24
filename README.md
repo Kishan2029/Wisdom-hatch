@@ -4,9 +4,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Gatsby Project
 </h1>
 
-## 🚀 Quick start
+<p>It is a Wisdom-hatch webiste.</p>
+## 🚀 Deployed Link
 
 
