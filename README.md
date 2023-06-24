@@ -8,8 +8,8 @@
 </h1>
 
 <p>It is a Wisdom-hatch webiste.</p>
-##     Heading level 2
+
 # 🚀 Deployed Link
-<div>[Netlify-Link]((https://tranquil-kleicha-b71768.netlify.app)https://tranquil-kleicha-b71768.netlify.app)</div>
+<div> <h3>[Netlify-Link]</h3>(https://tranquil-kleicha-b71768.netlify.app)</div>
 
 
