@@ -9,6 +9,6 @@
 
 <p>It is a Wisdom-hatch webiste.</p>
 ## 🚀 Deployed Link
-[Netlify-Link]([https://link-url-here.org](https://tranquil-kleicha-b71768.netlify.app)https://tranquil-kleicha-b71768.netlify.app)
+<div>[Netlify-Link]([https://link-url-here.org](https://tranquil-kleicha-b71768.netlify.app)https://tranquil-kleicha-b71768.netlify.app)</div>
 
 
