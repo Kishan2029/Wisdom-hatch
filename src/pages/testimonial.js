@@ -5,6 +5,7 @@ import TestimonialVideoData from "../content/TestimonialVideoData.json"
 import TestimonialBigData from "../content/TestimonialBigData.json"
 import { FaStarHalf, FaStar } from 'react-icons/fa';
 import Star from '../components/Star'
+import YoutubeEmbed from '../components/YouTubeVideo'
 
 const testimonial = () => {
     const data = TestimonialVideoData.content
@@ -31,7 +32,7 @@ const testimonial = () => {
                                         <div>{item.name}</div>
                                     </div>
                                     <div className='h-56 w-full mt-4 border-2 border-black border-solid rounded-xl'>
-
+                                        <YoutubeEmbed />
                                     </div>
                                 </div>
                             </GreenContainer>
