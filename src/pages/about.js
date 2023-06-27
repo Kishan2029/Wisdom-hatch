@@ -9,7 +9,6 @@ const about = () => {
 
     return (
         <Layout>
-
             <div class="flex mb-4 mt-16">
                 <div class="w-1/2 ">
                     <StaticImage

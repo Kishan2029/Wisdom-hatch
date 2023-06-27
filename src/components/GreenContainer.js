@@ -1,8 +1,8 @@
 import React from 'react'
 
-const GreenContainer = ({ children }) => {
+const GreenContainer = ({ children, border = true }) => {
     return (
-        <div className='gradient rounded-3xl border-black border-2'>{children}</div>
+        <div className={`gradient rounded-3xl ${border ? 'border-black border-2' : ''} `}>{children}</div>
     )
 }
 
