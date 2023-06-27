@@ -23,10 +23,10 @@ const Navbar = () => {
             </div>
             <div className='flex space-x-10 text-lg font-extralight'>
                 <div ><Link to="/">Home</Link></div>
-                <div ><Link to="/">Cources</Link></div>
-                <div ><Link to="/">Testimonial</Link></div>
+                <div ><Link to="/courses">Cources</Link></div>
+                <div ><Link to="/testimonial">Testimonial</Link></div>
                 <div ><Link to="/about">About</Link></div>
-                <div ><Link to="/">Login</Link></div>
+                <div ><Link to="/login">Login</Link></div>
                 {/* <div >Cources</div>
                 <div >Testimonial</div>
                 <div>About</div>
