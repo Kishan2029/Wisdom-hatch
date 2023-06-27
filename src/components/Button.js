@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({ value }) => {
     return (
-        <button className='button text-sm font-semibold h-14 w-fit px-5 rounded-xl   ' >{value}</button>
+        <button className='button text-sm font-semibold h-14 w-fit px-5 rounded-xl' >{value}</button>
     )
 }
 
