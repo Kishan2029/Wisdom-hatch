@@ -1,15 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import GreenContainer from '../components/GreenContainer'
-import TestimonialVideoData from "../content/TestimonialVideoData.json"
-import TestimonialBigData from "../content/TestimonialBigData.json"
-import { FaStarHalf, FaStar } from 'react-icons/fa';
-import Star from '../components/Star'
-import YoutubeEmbed from '../components/YouTubeVideo'
+import TestimonialVideoSection from '../components/TestimonialVideoSection'
+import TestimonialBigSection from '../components/TestimonialBigSection'
 
 const testimonial = () => {
-    const data = TestimonialVideoData.content
-    const bigData = TestimonialBigData.content
+
     return (
         <Layout>
             <div className='mt-16 flex justify-center'>
@@ -20,47 +16,9 @@ const testimonial = () => {
                     </div>
                 </GreenContainer>
             </div>
-            {/* Video Section */}
-            <div class="grid grid-cols-2 grid-flow-row gap-5 mt-14">
-                {
-                    data.map((item) => {
-                        return (
-                            <GreenContainer shadow={false}>
-                                <div className='p-10'>
-                                    <div className='flex justify-between'>
-                                        <div className='self-center'><Star star={item.star} /></div>
-                                        <div>{item.name}</div>
-                                    </div>
-                                    <div className='h-56 w-full mt-4 border-2 border-black border-solid rounded-xl'>
-                                        <YoutubeEmbed embedId={item.embedId} />
-                                    </div>
-                                </div>
-                            </GreenContainer>
-                        )
+            <TestimonialVideoSection />
+            <TestimonialBigSection />
 
-                    })
-                }
-            </div>
-
-            {/* Testimonial Section */}
-            <div class="grid grid-cols-2 grid-flow-row gap-5 mt-20">
-                {
-                    bigData.map((item) => {
-                        return (
-                            <GreenContainer shadow={false}>
-                                <div className='p-10'>
-                                    <div className='flex justify-between content-end'>
-                                        <div className='self-center'><Star star={item.star} /></div>
-                                        <div>{item.name}</div>
-                                    </div>
-                                    <div className="mt-6 font-thin leading-relaxed"><p>{item.description}</p></div>
-                                </div>
-                            </GreenContainer>
-                        )
-
-                    })
-                }
-            </div>
         </Layout>
     )
 }
