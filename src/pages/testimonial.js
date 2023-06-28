@@ -32,7 +32,7 @@ const testimonial = () => {
                                         <div>{item.name}</div>
                                     </div>
                                     <div className='h-56 w-full mt-4 border-2 border-black border-solid rounded-xl'>
-                                        <YoutubeEmbed />
+                                        <YoutubeEmbed embedId={item.embedId} />
                                     </div>
                                 </div>
                             </GreenContainer>
