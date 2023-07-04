@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFillBagFill, BsBagCheck } from 'react-icons/bs';
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'gatsby';
+import { HiOutlineBars3 } from 'react-icons/hi2';
 
 // React Components
 import Button from './Button';
@@ -14,14 +15,14 @@ const Navbar = () => {
             <div>
                 <StaticImage
                     src="../images/logo.png"
-                    alt="A dinosaur"
+                    alt="A Wisdom Logos"
                     placeholder="blurred"
                     layout="fixed"
                     width={180}
                     height={70}
                 />
             </div>
-            <div className='flex space-x-10 text-lg font-extralight'>
+            <div className='hidden lg:flex space-x-10 text-lg font-extralight'>
                 <div ><Link to="/">Home</Link></div>
                 <div ><Link to="/courses">Cources</Link></div>
                 <div ><Link to="/testimonial">Testimonial</Link></div>
@@ -32,10 +33,15 @@ const Navbar = () => {
                 <div>About</div>
                 <div>Login</div> */}
             </div>
-            <div className='flex space-x-4 items-center'>
+            <div className='hidden lg:flex space-x-4 items-center'>
                 <BsBagCheck style={{ fontSize: 30 }} />
-                {/* <StaticImage src={BiShoppingBag} alt='Shopping Bag' /> */}
-                <Button value={'ENROLL NOW!'} />
+
+                <Button value={'ENROLL NOW!'} height={14} />
+            </div>
+            <div className='lg:hidden'>
+                <div className='button w-fit p-1 rounded-md '>
+                    <HiOutlineBars3 fontSize={30} />
+                </div>
             </div>
         </div>
     )

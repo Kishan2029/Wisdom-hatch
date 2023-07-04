@@ -11,7 +11,7 @@ import "../styles/global.css"
 const index = () => {
   return (
     <div className='overflow-scroll'>
-      <div className="mx-36 ">
+      <div className="mx-4 sm:mx-4 md:mx-10 xl:mx-36 ">
         <Navbar />
         <HeaderSection />
         <OfferSection />
