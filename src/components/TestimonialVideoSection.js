@@ -8,7 +8,7 @@ const TestimonialVideoSection = () => {
     const data = TestimonialVideoData.content
     return (
 
-        <div class="grid grid-cols-2 grid-flow-row gap-5 mt-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-5 mt-14">
             {
                 data.map((item) => {
 

@@ -8,7 +8,7 @@ const bigData = TestimonialBigData.content
 const TestimonialBigSection = () => {
     return (
 
-        <div class="grid grid-cols-2 grid-flow-row gap-5 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-5 mt-20">
             {
                 bigData.map((item) => {
                     return (

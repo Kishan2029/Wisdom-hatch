@@ -8,7 +8,7 @@ const testimonial = () => {
 
     return (
         <Layout>
-            <div className='mt-16 flex justify-center'>
+            <div className='mt-16 flex justify-center '>
                 <GreenContainer border={true}>
                     <div className='text-center px-8 py-12'>
                         <div className='text-5xl font-black tracking-wide'> Testimonials</div>
