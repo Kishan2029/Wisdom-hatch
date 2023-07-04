@@ -9,18 +9,19 @@ const about = () => {
 
     return (
         <Layout>
-            <div class="flex mb-4 mt-16">
-                <div class="w-1/2 ">
+            <div class="flex flex-col lg:flex-row mb-4 mt-16">
+                <div class="flex justify-center  mx-auto items-center lg:w-1/2">
                     <StaticImage
                         src="../images/akshat.png"
                         alt="An Image"
                         placeholder="blurred"
-                        layout="fixed"
+                        layout="constrained"
                         // width={180}
                         height={540}
                     />
                 </div>
-                <div class="w-1/2 pl-16">
+
+                <div class="mt-10 ml-5 lg:mt-0 lg:w-1/2 lg:pl-16">
                     <div className="text-5xl font-bold">About Akshat</div>
                     <div className="text-sm mt-6 leading-loose font-light">
                         <p>{data.para1}</p>
