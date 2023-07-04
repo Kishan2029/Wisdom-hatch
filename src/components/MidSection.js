@@ -34,9 +34,9 @@ const MidSection = () => {
     }
     return (
         <>
-            <div className='flex mt-10 items-center'>
-                <div className='w-3/5 text-3xl'>Learn from top consultants in the Industry.</div>
-                <div className='flex justify-evenly w-2/5'>
+            <div className='flex flex-col lg:flex-row mt-10 items-center'>
+                <div className='lg:w-3/5 text-3xl'>Learn from top consultants in the Industry.</div>
+                <div className='flex justify-evenly w-full lg:w-2/5 mt-6 lg:mt-0'>
                     <div className='grayscale hover:grayscale-0'>
                         <StaticImage
                             src="../images/BCG-logo.jpeg"
@@ -63,17 +63,18 @@ const MidSection = () => {
                 <GreenContainer>
                     <div className='p-10'>
                         <div className='text-3xl font-semibold text-center leading-loose'>If you have any questions in your mind, Just <span className='text-2xl text-[#39808a]'>Click Here</span> to write or you can
-                            mail at <span className='text-2xl text-[#39808a]'> info@wisdomhatch.com</span></div>
+                            mail at <span className='text-2xl text-[#39808a]'> info@wisdomhatch.com</span>
+                        </div>
                     </div>
                 </GreenContainer>
             </div>
 
             <div className='mt-20'>
                 <GreenContainer>
-                    <div className='flex justify-evenly text-4xl font-semibold  p-8 my-9'>
-                        <div > ${students}+  <div className='font-normal text-sm'>Students Enrolled</div></div>
-                        <div>${hours} + <div className='font-normal text-sm'>Teaching Hours</div></div>
-                        <div>${letters} K + <div className='font-normal text-sm'>Newsletter</div></div>
+                    <div className='flex justify-evenly text-2xl md:text-4xl font-semibold p-4 my-4 md:p-8 md:my-9'>
+                        <div > ${students}+  <div className='font-normal text-xs md:text-sm'>Students Enrolled</div></div>
+                        <div>${hours} + <div className='font-normal text-xs md:text-sm'>Teaching Hours</div></div>
+                        <div>${letters} K + <div className='font-normal text-xs md:text-sm'>Newsletter</div></div>
                     </div>
                 </GreenContainer>
             </div>
