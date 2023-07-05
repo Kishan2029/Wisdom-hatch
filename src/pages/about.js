@@ -35,7 +35,7 @@ const about = () => {
                             })
                         }
                         <div className='mt-8'>
-                            <Button value={"VIEW COURSES"} />
+                            <Button value={"VIEW COURSES"} height={14} />
                         </div>
                     </div>
                 </div>

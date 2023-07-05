@@ -11,7 +11,7 @@ const HeaderSection = () => {
                 <div className='text-4xl leading-normal mt-4'>Being Knowledgeable is<br /> the new Cool!</div>
                 <div className='text-base leading-8 mt-5'>Learn about Finance, Management Consulting and develop career transforming skills.</div>
                 <div className='mt-8'>
-                    <Button value={"VIEW COURSES"} />
+                    <Button value={"VIEW COURSES"} height={14} />
                 </div>
             </div>
             <div className='mt-0 justify-self-end '>

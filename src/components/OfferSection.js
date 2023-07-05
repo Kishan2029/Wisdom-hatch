@@ -40,7 +40,7 @@ const OfferSection = () => {
 
       </div>
       <div className="mt-5">
-        <Button value={"LEARN MORE"} />
+        <Button value={"LEARN MORE"} height={14} />
       </div>
 
     </div>
