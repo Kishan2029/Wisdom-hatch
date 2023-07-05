@@ -19,7 +19,7 @@ const MidSection = () => {
     const counter = (number, setNumber, totalNumber, increment) => {
         function countDown() {
             const timeOut = setTimeout(async () => {
-                console.log("inside")
+
                 setNumber(number + increment)
                 // countDown()
             }, 80)
@@ -78,6 +78,7 @@ const MidSection = () => {
                     </div>
                 </GreenContainer>
             </div>
+
         </>
     )
 }

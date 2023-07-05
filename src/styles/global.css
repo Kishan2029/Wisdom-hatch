@@ -55,3 +55,11 @@
 
   box-shadow: 2px 2px 8px 0px #0e1015;
 }
+
+/* .animate {
+  transition: transform 3s linear;
+}
+
+.startAnimate:active {
+  transform: all 0.5s ease-in-out;
+} */
