@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className='hidden lg:flex space-x-4 items-center'>
                     <BsBagCheck style={{ fontSize: 30 }} />
 
-                    <Button value={'ENROLL NOW!'} height={10} />
+                    <Button value={'ENROLL NOW!'} height={14} />
                 </div>
                 <div className='lg:hidden'>
                     <div className='button w-fit p-1 rounded-md h-10'>
