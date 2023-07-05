@@ -1,49 +1,25 @@
 import React from 'react'
 import GreenContainer from './GreenContainer'
 import { FaStarHalf, FaStar } from 'react-icons/fa';
+import Star from './Star';
 
-
-
-
-
-
-
-
-
-const TestimonialCard = ({ description, name, title, star }) => {
-
-    const myExample = () => {
-        let myArray = []
-        for (let i = 0; i < star; i = i + 1) {
-
-            if (star - i === 0.5) {
-                i = star
-                // console.log("hello")
-                myArray.push(<FaStarHalf key={i} style={{ color: "orange" }} />)
-                break
-            }
-            else {
-                myArray.push(<FaStar style={{ color: "orange" }} />)
-            }
-
-        }
-
-        return myArray
-    }
+const TestimonialCard = ({ description, name, title, star, id }) => {
     return (
-        <GreenContainer width={"fitcontent"}>
-            <div className='p-7'>
-                <div className='text-sm leading-loose'>
-                    {description}
-                </div>
-                <div className='flex mt-3 mb-3 space-x-1' >
-                    {myExample()}
+        <div className={` ${id == 1 ? 'hidden' : ""} lg:block`}>
+            <GreenContainer width={"fitcontent"}>
+                <div className='p-7'>
+                    <div className='text-sm leading-loose'>
+                        {description}
+                    </div>
+                    <div className='mt-3 mb-3' >
+                        <Star star={star} />
 
+                    </div>
+                    <div className="text-lg ">{name}</div>
+                    <div className="text-sm mt-1.5">{title}</div>
                 </div>
-                <div className="text-lg ">{name}</div>
-                <div className="text-sm mt-1.5">{title}</div>
-            </div>
-        </GreenContainer>
+            </GreenContainer>
+        </div>
     )
 }
 
