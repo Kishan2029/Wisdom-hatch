@@ -12,5 +12,3 @@
 # 🚀 Deployed Link
 <div> <h3>[Netlify-Link]</h3>(https://tranquil-kleicha-b71768.netlify.app/)</div>
 
-
-<img width="513" alt="Screenshot 2024-01-04 at 1 31 07 PM" src="https://github.com/Kishan2029/Wisdom_Hatch/assets/63163246/fb629fb2-ac54-4811-a068-b11b9005b365">
